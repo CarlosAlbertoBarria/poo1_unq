@@ -8,6 +8,6 @@ Puede descargarse entorno Cuis University desde el siguiente link.
 https://github.com/Cuis-University/Cuis-University/releases/tag/v5093.0
 
 
-Desde Windows se debe descomprimir archivo .zip descargado, y luego ejecutar archivo .bat.
+Desde Windows se debe descomprimir archivo .zip descargado, y luego ejecutar archivo .bat
 
-Desde Linux se debe descomprimir archivo .tar.gz descargado, y luego ejecutar archivo run.sh.
+Desde Linux se debe descomprimir archivo .tar.gz descargado, y luego ejecutar archivo run.sh
