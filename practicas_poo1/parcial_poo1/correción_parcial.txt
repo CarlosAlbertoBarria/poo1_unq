@@ -1,0 +1,35 @@
+Se muestra devolución del profesor, y en el archivo .st correcciones en el código.
+
+
+"Cosas buenas:
+Tenes gran parte completada del enunciado, con la mayoría de los objetos necesarios.
+
+Usaste los factories para obtener objetos específicos para los tests, el setUp podria haber tenido un poco mas de uso igual!
+
+El manejo de colecciones
+
+La jerarquía de clases.
+Categorización de mensajes.
+
+Cosas a mejorar:
+
+Algunos nombres de los tests (en general están bien los nombres, solo que son muy implementations o hay que re-formularlos un poquito, no afecta igual esto)
+
+Hay ciertos mensajes que se vuelven a re implementar o utilizan otro mensaje sin dar nada de comportamiento.
+
+Toda la parte de “esPura” tiene diferentes mensajes, y trae muchísima confusión a la hora de entender su protocolo. En esos casos hay que respetar el mensaje que utiliza el dominio 
+
+Si bien tieneAlgunHabitanteConImplantes y esImpura comparten la idea, el primero es muy implementativo respecto del segundo, además, el segundo mensaje es del que habla el enunciado. Si el día de mañana cambia la implementación, hay que cambiar el nombre del primer mensaje.
+
+
+La inicialización de los objetos, en muchos puedo tener “objetos incompletos” (ver arma)
+
+Hay que tener cuidado con asumir cosas, porque puede llegar a traer ciertos problemas, por ejemplo en el caso de la  inicialización del arma, ya que hay hardcodeado un 30 en munición mínima al inicializarlo y eso no es nombrado en el enunciado. Otro detalle, también nos permite hacer Arma new y tener un arma que hace 0 de daño y con 0 de munición. 
+
+Lo ideal es hacer el desarrollo sobre el mercenario y no sobre las armas, no es que este estrictamente mal, solo que hacer TDD sobre el mercenario descubre el comportamiento a nivel funcional, las armas o los puños son mas “implementativo” sobre como el mercenario tiene poder ofensivo. 
+
+
+Cosas incompletas:
+Toda la parte referente a ganar o perder fama.
+
+Faltan los casos sobre los últimos puntos.
